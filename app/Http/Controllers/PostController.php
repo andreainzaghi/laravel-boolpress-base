@@ -4,8 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class Comment extends Controller
+class PostController extends Controller
 {
+    protected $guarded = [];
     /**
      * Display a listing of the resource.
      *

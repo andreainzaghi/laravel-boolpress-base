@@ -4,8 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class Post extends Controller
+class CommentController extends Controller
 {
+    
     /**
      * Display a listing of the resource.
      *
