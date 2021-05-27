@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Admin;
 
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class PostController extends Controller
+class TagController extends Controller
 {
-    protected $guarded = [];
     /**
      * Display a listing of the resource.
      *
